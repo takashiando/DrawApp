@@ -18,6 +18,7 @@ public class SampleView extends View {
 	
 	@Override
 public void onDraw(Canvas canvas){
+		paint.setColor(Color.RED);
 		canvas.drawCircle(100,100,5,paint);
 		
 	}
